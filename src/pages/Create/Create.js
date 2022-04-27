@@ -4,8 +4,8 @@ import { useFirestore } from "../../hooks/useFirestore";
 import { timestamp } from "../../firebase/config";
 import { useAuthContext } from "../../hooks/useAuthContext";
 import Select from "react-select";
-import "./Create.css";
 import { useNavigate } from "react-router-dom";
+import "./Create.css";
 
 const categories = [
 	{ value: "development", label: "Development" },
@@ -123,6 +123,7 @@ const Create = () => {
 					<Select
 						options={users}
 						onChange={option => setAssignedUsers(option)}
+						maxMenuHeight={100}
 						isMulti
 					/>
 				</label>
