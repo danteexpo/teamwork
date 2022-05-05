@@ -1,14 +1,14 @@
 # Teamwork Management
 
-Proyecto realizado con React y Firebase.
+Project made with React and Firebase.
 
-## Instalación
+## Installation
 
 ```bash
 npm install
 ```
 
-## Ejecución
+## Start
 
 ```bash
 npm start
