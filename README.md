@@ -2,14 +2,6 @@
 
 Project made with React and Firebase.
 
-## Installation
+## Link
 
-```bash
-npm install
-```
-
-## Start
-
-```bash
-npm start
-```
+[Teamwork Management](https://de-teamwork.netlify.app/).
