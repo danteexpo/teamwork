@@ -17,9 +17,9 @@ const Dashboard = () => {
 	const projects = documents
 		? documents.filter(document => {
 				switch (currentFilter) {
-					case "all":
+					case "All":
 						return true;
-					case "mine":
+					case "Mine":
 						let assignedToMe = false;
 						document.assignedUsersList.forEach(u => {
 							if (user.uid === u.id) {
@@ -27,10 +27,10 @@ const Dashboard = () => {
 							}
 						});
 						return assignedToMe;
-					case "development":
-					case "design":
-					case "sales":
-					case "marketing":
+					case "Development":
+					case "Design":
+					case "Sales":
+					case "Marketing":
 						return document.category === currentFilter;
 					default:
 						return true;
