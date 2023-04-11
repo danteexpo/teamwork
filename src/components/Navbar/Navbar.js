@@ -14,7 +14,7 @@ const Navbar = () => {
 			<ul>
 				<li className="logo">
 					<img src={Teamwork} alt="" />
-					<span>Team Work</span>
+					<span>Team Work!</span>
 				</li>
 				{!user && (
 					<>

@@ -1,12 +1,12 @@
 import React from "react";
 
 const filterList = [
-	"all",
-	"mine",
-	"development",
-	"design",
-	"marketing",
-	"sales",
+	"All",
+	"Mine",
+	"Development",
+	"Design",
+	"Marketing",
+	"Sales",
 ];
 
 const ProjectFilter = ({ currentFilter, changeFilter }) => {
